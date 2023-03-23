@@ -84,8 +84,7 @@ select {
 }
 
 nav {
-  padding: 2rem;
-  margin-bottom: 1rem;
+  padding: 2rem 2rem 0;
 }
 
 body {
@@ -219,6 +218,10 @@ ul {
 
 /* Mobile */
 @media screen and (max-width: 768px) {
+  nav {
+    padding-bottom: 1rem;
+  }
+
   h1 {
     font-size: calc((1.5 - 1) * 1.2vw + 2rem);
   }
