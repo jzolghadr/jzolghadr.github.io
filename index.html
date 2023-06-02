@@ -1,71 +1,267 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/63b994f534.js" crossorigin="anonymous"></script>
-    <title>Jason Zolghadr | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="flex space-between align-items-center">
-        <h1>
-            Jason Zolghadr
-        </h1>
-        <a href="https://www.imdb.com/name/nm14259080/" target="_blank"><i class="fa-brands fa-imdb icon"></i></a>
-  </nav>
-    </body>
-  <main>
-    <div class="two-columns">
-      <section class="column">
-        <h2 class="text-serif bio-text">
-          is a video editor, sound designer, and musician based in Southern
-          California
-        </h2>
-        <div class="video-wrap">
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9-kBUa4N9u8?start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jason Zolghadr | Freelance video editor and sound designer Los Angeles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="preloader"><img src="images/jason_z.svg" alt="Jason Zolghadr"/></div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <nav>
+                    <ul class="menu">
+                        <li class="logo">
+                            <img src="images/jason_z.svg" alt="NativeSeed Group"/>
+                        </li>
+                        <li class="item">
+                            <a href="#about">Experience</a>
+                        </li>
+                        <li class="item">
+                            <a href="#media">Selected Works</a>
+                        </li>
+                        <li class="item">
+                            <a href="#contact">Contact</a>
+                        </li> 
+                        <li class="toggle">
+                            <a href="#"><img src="images/menu-hamburger.svg" alt=""/></a>
+                        </li>
+                    </ul>
+                </nav> 
             </div>
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/S-Q9kA7eGKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        </div>    
+    </div>    
+</header>    
+<section class="section-hero">
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="images/video_poster.jpg">
+            <source src="images/jason_waveform.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+        <div class="video-content z-10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 d-flex flex-column justify-content-center">
+                        <h1>Jason Zolghadr</h1>
+                        <h2 class="intro">Video editor, sound designer and musician based in Southern California</h2>
+                    </div>
+                </div>
             </div>
         </div>
-      </section>
-      <section id="work-experience" class="column">
-        <header><h2 class="text-serif">Work Experience</h2></header>
-        <div class="text-sans-serif">
-          <h3 class="text-sans-serif">Assistant Editor</h3>
-          <h4>Features:</h3>
-          <ul>
-            <li>Let Us Make Eve (2023)</li>
-            <li>Fallout (2023)</li>
-            <li>Fatima & Marie (2023)</li>
-            <li>Black Cats (2023)</li>
-            <li>Hyde Park (2022)</li>
-            <li>Everyday But Christmas (2019)</li>
-            <li>Nothing Like Thanksgiving (2018)</li>
-            <li>Austin Found (2017)</li>
-          </ul>
-          <h3>Editor</h3>
-          <ul>
-            <li>Niousha Noor - Navaii (2023) <i>[Music Video]</i></li>
-          </ul>
-          <h3>Sound Design</h3>
-          <ul>
-            <li>Let Us Make Eve (2023) <i>[Feature]</i></li>
-            <li>Always Azizam (2023) <i>[Short]</i></li>
-          </ul>
-          <h3>Music Composition/Production</h3>
-          <ul>
-            <li>Let Us Make Eve (2023) <i>[Feature]</i></li>
-            <li>My Immigrant Family (2021) <i>[TV Series]</i></li>
-          </ul>
-        </div>
-      </section>
     </div>
-  </main>
+    <div class="gradient_overlay"></div>
+</section>    
+<section class="section section-about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 wave-channel">
+                <h2 class="vertical-text">Work Experience</h2>
+            </div> 
+            <div class="col-xs-12 col-sm-5">
+                <h3 class="tx-subtitle">Assistant Editor</h3>
+                <ul>
+                    <li>Let Us Make Eve <em>(2023)</em></li>
+                    <li>Fallout <em>(2023)</em></li>
+                    <li>Fatima &amp; Marie <em>(2023)</em></li>
+                    <li>Black Cats <em>(2023)</em></li>
+                    <li>Hyde Park <em>(2022)</em></li>
+                    <li>Everyday But Christmas <em>(2019)</em></li>
+                    <li>Nothing Like Thanksgiving <em>(2018)</em></li>
+                    <li>Austin Found <em>(2017)</em></li>
+                </ul>    
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <h3 class="tx-subtitle">Editor</h3>
+                <ul>
+                    <li>Niousha Noor - Navaii <em>(2023)</em> [Music Video]</li>
+                    <li>Fatima &amp; Marie <em>(2023)</em> [Music Video]</li>
+                </ul>    
+                <h3 class="tx-subtitle">Sound Design</h3>
+                <ul>
+                    <li>Let Us Make Eve <em>(2023)</em> [Feature]</li>
+                    <li>Always Azizam <em>(2023)</em> [Short]</li>
+                </ul>    
+                <h3 class="tx-subtitle">Music Composition/Production</h3>
+                <ul>
+                    <li>Let Us Make Eve <em>(2023)</em> [Feature]</li>
+                    <li>Sahar Homami - Fanaa <em>(2022)</em> [EP]</li>
+                    <li>My Immigrant Family <em>(2021)</em> [TV Series]</li>
+                </ul>    
+            </div>
+        </div>    
+    </div>    
+</section>   
+<section class="section section-media" id="media">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <h2 class="vertical-text">Selected Media</h2>
+            </div> 
+            <div class="col-xs-12 col-sm-10">
+                <h4>Featured Clips</h4>
+                <ul class="video-list featured">
+                    <li class="video featured col-bot">
+                        <a href="https://youtu.be/9-kBUa4N9u8" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/niousha-navaii.jpg">
+                                <figcaption></figcaption>
+                            </figure>
+                        </a>
+                        Niousha - Navaii (Music Video)
+                    </li>
+                    <li class="video featured">
+                        <a href="https://www.youtube.com/watch?v=S-Q9kA7eGKM" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/myimmigrantfamily.jpg">
+                                <figcaption></figcaption>
+                            </figure>
+                        </a>
+                        My Immigrant Family (Iranian Sitcom)
+                    </li>
+                </ul>
+                
+                <h4>Production Work</h4>
+                <div class="work-slider">
+                    <div>
+                        <a href="https://www.imdb.com/title/tt15327332" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/always_a.jpg">
+                                <figcaption>Always Azizam</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt2658538" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/austin_a.jpg">
+                                <figcaption>Austin Found</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt15727400" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/hyde_park.jpg">
+                                <figcaption>Hyde Park</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt9625298" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/everyday_christmas.jpg">
+                                <figcaption>Every Day But Christmas</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt7535288" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/nothing_like_thanks.jpg">
+                                <figcaption>Nothing Like Thanksgiving</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt14363842/" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/my_immigrant.jpg">
+                                <figcaption>My Immigrant Family</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt22003512/" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/make_eve.jpg">
+                                <figcaption>Let Us Make Eve</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://sahar.bandcamp.com/album/fanaa" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/fanaa_album.jpg">
+                                <figcaption>Sahar Homami - Fanaa</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt6769564/" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/coming_soon.jpg">
+                                <figcaption>Fallout</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt22003660" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/coming_soon.jpg">
+                                <figcaption>South Haven (Fatima &amp; Marie)</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                    <div>
+                        <a href="https://www.imdb.com/title/tt22003700/" target="_blank">
+                            <figure class="attachment-section" data-background="images/work/coming_soon.jpg">
+                                <figcaption>Black Cats, White Mice</figcaption>
+                            </figure>    
+                        </a>    
+                    </div>
+                  </div>
+            </div>
+        </div>    
+    </div>    
+</section>       
+<section class="section section-contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 wave-channel">
+                <h2 class="vertical-text">Contact Me</h2>
+            </div> 
+            <div class="col-xs-12 col-sm-5 col-bot">
+                <h4>Social Links</h4>
+                <div class="social-menu">
+                    <ul>
+                        <li>
+                            <a href="https://www.soundcloud.com/jzolghadr/" class="fab">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 25.00014">
+                                    <path d="m30,0c-3.60156,0-7,1.78906-9,4.6875v20.3125h21.5c4.10156,0,7.5-3.39844,7.5-7.5s-3.39844-7.5-7.5-7.5c-.5,0-1,.08594-1.5.1875-.5-5.69922-5.19922-10.1875-11-10.1875Zm-13,5c-.69922,0-1.39844.08594-2,.1875v19.8125h2V5Zm1,0v20h2V5.5c-.60156-.19922-1.30078-.39844-2-.5Zm-4,.5c-.69922.30078-1.39844.60156-2,1v18.5h2V5.5Zm-3,1.8125c-.80078.69922-1.5,1.59375-2,2.59375v15.09375h2V7.3125Zm-4.5,3.6875c-.17578.01172-.35156.04297-.5.09375v13.8125c.30078.10156.69922.09375,1,.09375h1v-13.90625c-.30078-.10156-.69922-.09375-1-.09375-.14844,0-.32422-.01172-.5,0Zm-1.5.3125c-.69922.19922-1.39844.5-2,1v11.375c.60156.39844,1.30078.80078,2,1v-13.375Zm-3,1.78125c-1.19922,1.30078-2,3.00781-2,4.90625s.80078,3.60547,2,4.90625v-9.8125Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/jzolghadr/" class="fab">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                                    <path id="instagram" d="m41.75438,0h-23.85965C8.07018,0,0,8.07018,0,17.89474v24.21053c0,9.82456,8.07018,17.89474,17.89474,17.89474h24.21053c9.82456,0,17.89474-8.07017,17.89474-17.89474v-24.21053c-.35088-9.82456-8.42105-17.89474-18.24562-17.89474Zm11.92982,41.75438c0,6.31579-5.26316,11.92982-11.92982,11.92982h-23.85965c-6.31579,0-11.92982-5.26316-11.92982-11.92982v-23.85965c0-6.31579,5.26316-11.92982,11.92982-11.92982h24.21053c6.31579,0,11.92982,5.26316,11.92982,11.92982l-.35088,23.85965h0ZM29.82456,14.38596c-8.42105,0-15.4386,7.01754-15.4386,15.4386s7.01754,15.43859,15.4386,15.43859,15.43859-7.01754,15.43859-15.43859-7.01754-15.4386-15.43859-15.4386Zm0,24.91228c-5.26316,0-9.47368-4.21053-9.47368-9.47368s4.21053-9.47368,9.47368-9.47368,9.47368,4.21053,9.47368,9.47368-4.21053,9.47368-9.47368,9.47368Zm15.43859-28.42105c2.10526,0,3.85965,1.75439,3.85965,3.85965s-1.75439,3.50877-3.85965,3.50877-3.85965-1.75439-3.85965-3.85965,1.75439-3.50877,3.85965-3.50877Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.imdb.com/name/nm14259080/" class="fab">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50.00312">
+                                    <path d="m46.6224,0H3.37732C1.54232.12144.12069,1.54938.00209,3.32365l-.00209,43.30058c.12196,1.82536,1.48447,3.2147,3.24157,3.37341.031.00417.06279.00547.09381.00547h43.33003c.03023,0,.06073-.0013.09096-.00416,1.81831-.16002,3.24363-1.7232,3.24363-3.5595V3.56236c0-1.85714-1.45006-3.42031-3.30018-3.5582-.02632-.00285-.05108-.00416-.07742-.00416Zm0,1.03334c1.31352.09798,2.34427,1.18659,2.34427,2.52902v42.8771c0,1.32862-1.01564,2.41721-2.30126,2.53032H3.33538c-1.24314-.1131-2.21783-1.10371-2.30282-2.34555V3.39271c.08498-1.27077,1.08782-2.27518,2.34476-2.35937h43.24508ZM9.98944,17.21004v15.3417h-3.96997v-15.3417h3.96997Zm13.619,0v15.3417h-3.46149v-10.35559l-1.39822,10.35559h-2.47222l-1.45553-10.12938-.01382,10.12938h-3.47531v-15.3417h5.14195c.15584.93249.31091,2.01978.48059,3.27804l.56501,3.89882.91814-7.17686h5.17089Zm6.20295,2.76879c.15453.08418.2541.22491.29528.42375.0581.19859.07192.64972.07192,1.34217v5.94779c0,1.01692-.07192,1.63902-.19887,1.86549-.1269.24003-.48005.35313-1.04557.35313v-10.07438c.42477,0,.72005.04274.87724.14204Zm-.04406,12.57291c.94654,0,1.66794-.05526,2.13443-.15455.48005-.0993.87594-.28277,1.18634-.55172.32422-.25385.55043-.6208.67732-1.0873.1272-.46624.21267-1.38517.21267-2.75523v-5.38199c0-1.45553-.05655-2.43101-.15454-2.9249-.08546-.49386-.29813-.94655-.65129-1.34113-.3531-.41099-.87461-.69245-1.55351-.87723-.66483-.16837-1.77975-.26767-3.68642-.26767h-2.96764v15.3417h4.80264Zm10.70896-3.71405c0,.7339-.04143,1.2004-.11336,1.39768-.06879.19729-.39457.29659-.63459.29659-.22621,0-.39586-.0993-.46626-.28147-.08546-.18477-.1269-.6221-.1269-1.2997v-4.05622c0-.69246.04144-1.12977.1131-1.29944.07035-.16836.22621-.2541.45241-.2541.24031,0,.5645.08575.64869.29685.08546.19728.1269.62209.1269,1.2567v3.94312Zm-5.15577-11.62766v15.3417h3.57462l.24005-.97393c.32419.39458.67735.69245,1.07346.88975.38077.18347.9601.28276,1.41254.28276.63487,0,1.17277-.15585,1.62547-.49386.45114-.32552.74769-.72139.87464-1.17252.1131-.45268.18477-1.13132.18477-2.05026v-4.30746c0-.91867-.02894-1.52592-.07167-1.80869-.04144-.28276-.15456-.57934-.35316-.87593-.21267-.29685-.50769-.52305-.89001-.69272-.38204-.15452-.83316-.24003-1.37004-.24003-.45244,0-1.03178.0993-1.42634.26766-.38232.18477-.73548.46624-1.05967.83476v-5.00123h-3.81467Z" fill-rule="evenodd"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <h4>Contact</h4>
+                <p>To reach me directly, please email me at: <a class="mail" href="javascript:location='mailto:\u006a\u0061\u0073\u006f\u006e\u002e\u007a\u006f\u006c\u0067\u0068\u0061\u0064\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d';void 0"><script type="text/javascript">document.write('\u006a\u0061\u0073\u006f\u006e\u002e\u007a\u006f\u006c\u0067\u0068\u0061\u0064\u0072\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d')</script></a></p>
+            </div>
+        </div>    
+    </div>    
+</section>
+<div class="back-to-top">
+   <svg class="progress-circle svg-content" height="100%" viewBox="-1 -1 102 102" width="100%">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+   </svg>
+</div>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="js/plugins.js"></script>        
+<script src="js/functions.js"></script>        
+</body>
 </html>
